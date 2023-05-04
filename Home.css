@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.para{letter-spacing:5px;word-spacing:40px;}
+
+@layer {
+    @apply {
+        .set-button{
+            flex; flex-col;
+        }
+    }
+}
